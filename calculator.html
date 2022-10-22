@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calculatorC.css">
+    <title>Calculator</title>
+</head>
+
+<body>
+
+
+
+    <div id="outerDiv" class="flex flex-col">
+        <div id="numbers" class="flex flex-col">
+            <!-- <h1>manan</h1> -->
+            <h1 id="texting" style="color: white;">0</h1>
+
+        </div>
+        <div id="numbers2" class="flex flex-row">
+            <div id="first" class="flex-col flex">
+                <button value="+" id="add" class="keys" onclick="display ('+')">
+                    +
+                </button>
+                <button value="7" id="seven" class="keys" onclick="display ('7')">
+                    7
+                </button>
+                <button value="4" id="four" class="keys" onclick="display ('4')">
+                    4
+                </button>
+                <button value="1" id="one" class="keys" onclick="display ('1')">
+                    1
+                </button>
+                <button value="0" id="zero" class="keys" onclick="display ('0')">
+                    0
+                </button>
+            </div>
+            <div id="second" class="flex-col flex">
+                <button id="minus" class="keys" value="-" onclick="display ('-')">
+                    -
+                </button>
+                <button id="eight" class="keys" value="8" onclick="display ('8')">
+                    8
+                </button>
+                <button id="five" class="keys" value="5" onclick="display ('5')">
+                    5
+                </button>
+                <button id="two" class="keys" value="2" onclick="display ('2')">
+                    2
+                </button>
+                <button id="dot" class="keys" value="." onclick="display ('.')">
+                    .
+                </button>
+    
+    
+            </div>
+            <div id="third" class="flex-col flex">
+                <button id="multiply" class="keys" value="*" onclick="display ('*')">
+                    *
+                </button>
+                <button id="nine" class="keys" value="9" onclick="display ('9')">
+                    9
+                </button>
+                <button id="six" class="keys" value="6" onclick="display ('6')">
+                    6
+                </button>
+                <button id="three" class="keys" value="3" onclick="display ('3')">
+                    3
+                </button>
+                <button id="ce" class="keys" value="">
+                    CE
+                </button>
+    
+            </div>
+            <div id="fourth" class="flex-col flex">
+                <button id="divide" class="keys" value="/" onclick="display ('/')">
+                    /
+                </button>
+                <button id="cancel" class="keys" value="x">
+                    X
+                </button>
+                <!-- <button id="two" class="keys">
+                    2
+                </button>
+                <button id="three" class="keys">
+                    3
+                </button>
+                <button id="equal" class="keys">
+                    =
+                </button>
+                <button id="divide" class="keys">
+                    /
+                </button> -->
+                <button id="equal" class="equal" value="=">
+                    =
+                </button>
+    
+    
+            </div>
+            <!-- <div id="lowest" class="flex-row flex">
+                <button id="zero" class="keys">
+                    0
+                </button>
+                <button id="dot" class="keys">
+                    .
+                </button>
+                <button id="c" class="keys">
+                    C
+                </button>
+                <button id="equal" class="keys">
+                    =
+                </button>
+    
+            </div> -->
+
+        </div>
+        
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+    <script src="calculatorJ.js"></script>
+</body>
+
+</html>
